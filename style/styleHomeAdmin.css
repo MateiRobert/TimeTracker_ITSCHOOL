@@ -1,0 +1,67 @@
+body {
+    background-color: #1bd3a5;
+  }
+  
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #999;
+  }
+  
+  
+  .line {
+    height: 2px;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    /* setam o latime maxima pentru a nu permite cardurilor sa se intinda prea mult */
+    margin: 0 auto;
+    /* centrare orizontala */
+  }
+  
+  .card {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    /* folosim calc pentru a scadea marginile din dimensiunea cardului */
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 768px) {
+  
+    /* stiluri pentru dispozitive cu ecrane mai mici decat 768px */
+    .card {
+      width: calc(50% - 20px);
+      /* folosim calc pentru a scadea marginile din dimensiunea cardului */
+    }
+  }
+  
+  @media (max-width: 480px) {
+  
+    /* stiluri pentru dispozitive cu ecrane mai mici decat 480px */
+    .card {
+      width: calc(100% - 20px);
+      /* folosim calc pentru a scadea marginile din dimensiunea cardului */
+    }
+  }
+
+ 

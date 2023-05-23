@@ -1,0 +1,4 @@
+[2023-05-22 05:50:09] Formatul departamentului nu este valid: stergema!\"§
+[2023-05-22 05:50:25] Formatul departamentului nu este valid: sterge-ma
+[2023-05-22 06:09:30] Eroare la adăugarea categoriei: Nume nevalid - test12 / 
+[2023-05-22 16:18:02] Formatul departamentului nu este valid: ff
